@@ -4,7 +4,7 @@ from django.db import models
 
 class Cliente(models.Model):
 	UNIDADES_DE_MEDIDA = (
-		('KG', 'Kilogramos'),
+		('KG', 'Kilograaaaaaaaaaaaaaaaaaaaaamos'),
 		('LT', 'Litros'),
 		('UN', 'Unidades'),
 	)
