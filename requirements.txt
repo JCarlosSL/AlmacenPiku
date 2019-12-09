@@ -14,7 +14,7 @@ reportlab>=2.7,<3
 xhtml2pdf>=0.0.6
 
 django-postgrespool==0.3.0
-gunicorn==19.3.0
+gunicorn==19.5.0
 psycopg2==2.6
 dj-database-url==0.3.0
 whitenoise==1.0.6
