@@ -1,12 +1,16 @@
-from django.test import TestCase
-
+import pytest
+from django.utils import timezone
 from proveedor.models import Proveedor
+
+# Create your tests here.
+
+#import proveedor.models.Proveedor as Proveedor
 #from proveedor.models import PedidoProveedor
 #from proveedor.models import DetallePedidoProveedor
 #from proveedor.models import DevolucionPedidoProveedor
 #from proveedor.models import DetalleDevolucionPedidoProveedor
 
-class TestProveedor(TestCase):
+class TestProveedor:
     def setUp(self):
         self.Pv=Proveedor()
         self.Pv.codigo=1233
@@ -23,7 +27,7 @@ class TestProveedor(TestCase):
 
         assert only_database == Pv
 
-
+"""
 class TestPedidoProveedor:
     def setUp(self):
         Pv=Proveedor()
@@ -42,4 +46,4 @@ class TestPedidoProveedor:
         all_database=self.PP.objects.all()
         assert len(all_database) == 1
 
-
+"""
