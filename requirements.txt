@@ -1,4 +1,4 @@
-Django==1.8.4
+Django==1.11.29
 SQLAlchemy==1.0.4
 django-admin-bootstrapped==2.5.4
 django-bootstrap3==6.2.2
